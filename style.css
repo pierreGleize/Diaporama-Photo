@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     font-size: 62.5%;
 }
@@ -18,10 +19,8 @@ html {
 }
 
 .blog-card {
-    width: 45%;
-    height: 35%;
-    /* width: 45%;
-    height: 35%; */
+    width: 75rem;
+    height: 25rem;
     background-color: rgb(40, 40, 40);
     border-radius: 2.5rem;
     padding: 2.5rem;
@@ -31,8 +30,8 @@ html {
 }
 
 .change.blog-card {
-    width: 55%;
-    height: 90%;
+    width: 80rem;
+    height: 66rem;
 }
 
 .blog-card-img {
@@ -167,7 +166,7 @@ html {
 .blog-tours-item span {
     position: absolute;
     top: 50%;
-    left: -18%;
+    left: -19%;
     transform: translateY(-50%) rotateZ(-90deg);
     font-family: "Kanit", sans-serif;
     font-size: 1.8rem;
